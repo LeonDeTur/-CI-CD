@@ -20,7 +20,7 @@ smoke-test-job:
 include:
   - local: local-smoke-tests.gitlab-ci.yml
 #  - remote: https://github.com/LeonDeTur/-CI-CD/blob/main/remote_included-file.yml
-# Yb cобственные файлы в репозиториях, ни ссылка на гитхаб не сработали
+# Ни cобственные файлы в репо, ни ссылка на гитхаб не сработали
 # Поэтому взял отсюда:
   - remote: https://gitlab.com/ci-cd7655047/5/-/raw/main/remote-included-file.yml
 ```
